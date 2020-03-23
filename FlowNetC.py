@@ -5,7 +5,7 @@ from torch.nn import init
 import math
 import numpy as np
 
-# from correlation_package.modules.correlation import Correlation
+from correlation_package.modules.correlation import Correlation
 
 from submodules import *
 'Parameter count , 39,175,298 '
@@ -29,7 +29,7 @@ class FlowNetC(nn.Module):
         #        Correlation(pad_size=20, kernel_size=1, max_displacement=20, stride1=1, stride2=2, corr_multiply=1),
         #        tofp16())
         #else:
-        # self.corr = Correlation(pad_size=20, kernel_size=1, max_displacement=20, stride1=1, stride2=2, corr_multiply=1)
+        self.corr = Correlation(pad_size=20, kernel_size=1, max_displacement=20, stride1=1, stride2=2, corr_multiply=1)
 
         self.corr_activation = nn.LeakyReLU(0.1,inplace=True)
         self.conv3_1 = conv(self.batchNorm, 473,  256)
