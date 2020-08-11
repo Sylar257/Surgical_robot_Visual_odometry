@@ -22,13 +22,11 @@ Our robotics system enters human body in one of two ways, normally determined by
 
 ## The Chanllenge
 
-![Picture3](images/Picture3.png)
-
 By design, this robotics system aims to perform surgery **without any incision** on the abdominal area. Hence, all instruments are extremely where the tool itself is only of a diameter of less than 4mm.
 
 Anything in the world, with making it super small, there comes a price. For us, it’s that we can not mount any force sensor in front to measure the **distal-force of the robot**. This limitation leads to a few issues: 1. robot runs on open loop control—**control accuracy suffers**. 2. Surgeon operates without haptic feedback—**deteriorated surgical performance**.
 
-![Picture4](images/Picture4.png)
+![Picture3](images/Picture3.png)
 
 ## How do we help the issue with Deep Learning?
 
