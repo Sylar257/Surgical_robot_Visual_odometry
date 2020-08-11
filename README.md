@@ -16,4 +16,4 @@ This Repo will be updated as the project progresses.
 
 Overview;
 
-![Picture2](images/Picture2.png)
+![Picture2](images/Hybrid_system.png)
