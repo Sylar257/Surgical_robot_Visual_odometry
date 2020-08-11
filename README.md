@@ -57,6 +57,16 @@ Below are some sample result of the Surgical Flow:
 
 ![Result_1](images/Result_1.png)
 
-
-
 ![Result_2](images/Result_2.png)
+
+![Result_3](images/Result_3.png)
+
+## Comparison with OpenCV’s approach and other CV methods
+
+![Compare_1](images/Compare_1.png)
+
+![Compare_2](images/Compare_2.png)
+
+![Compare_3](images/Compare_3.png)
+
+![Other CV methods](images/Other CV methods.png)
